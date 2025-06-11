@@ -13,4 +13,11 @@
     "cors": "^2.8.5",
     "express": "^5.1.0"
   }
+},
+{
+  "name": "my-package",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest"
+  }
 }
